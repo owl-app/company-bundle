@@ -60,7 +60,7 @@ final class CompanyType extends AbstractResourceType
                 'attr' => ['rows' => 3],
                 'required' => false
             ])
-            ;
+        ;
     }
 
     public function getBlockPrefix(): string

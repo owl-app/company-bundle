@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Owl\Bundle\CompanyBundle\DependencyInjection;
 
-use Owl\Bridge\SyliusResource\Controller\BaseController;
+use Owl\Bridge\SyliusResourceBridge\Controller\BaseController;
 use Owl\Bundle\CompanyBundle\Form\Type\CompanyType;
 use Owl\Component\Company\Model\Company;
 use Owl\Component\Company\Model\CompanyInterface;
