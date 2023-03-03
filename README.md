@@ -1,7 +1,7 @@
 OwlCompanyBundle
 =====================
 
- Companies management for Symfony applications.
+Companies management for Symfony applications.
 
 Authors
 -------
