@@ -63,6 +63,11 @@ final class CompanyType extends AbstractResourceType
         ;
     }
 
+    /**
+     * @return string
+     *
+     * @psalm-return 'owl_company'
+     */
     public function getBlockPrefix(): string
     {
         return 'owl_company';

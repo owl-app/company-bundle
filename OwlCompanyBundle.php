@@ -9,6 +9,11 @@ use Sylius\Bundle\ResourceBundle\SyliusResourceBundle;
 
 final class OwlCompanyBundle extends AbstractResourceBundle
 {
+    /**
+     * @return string[]
+     *
+     * @psalm-return list{'doctrine/orm'}
+     */
     public function getSupportedDrivers(): array
     {
         return [
@@ -16,6 +21,11 @@ final class OwlCompanyBundle extends AbstractResourceBundle
         ];
     }
 
+    /**
+     * @return string
+     *
+     * @psalm-return 'Owl\Component\Company\Model'
+     */
     protected function getModelNamespace(): string
     {
         return 'Owl\Component\Company\Model';
